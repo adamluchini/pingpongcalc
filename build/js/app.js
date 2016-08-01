@@ -21,8 +21,7 @@ Calculator.prototype.pingPong = function(goal) {
 
 
 Calculator.prototype.addition = function(number1, number2) {
-    output = number1 + number2;
-    return output;
+    return (number1 + number2);
 };
 
 Calculator.prototype.subtraction = function(number1, number2) {
